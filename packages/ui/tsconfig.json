@@ -1,0 +1,5 @@
+{
+	"extends": "@spacegame/config/src/typescript/react-library.json",
+	"include": ["."],
+	"exclude": ["dist", "build", "node_modules"]
+}
