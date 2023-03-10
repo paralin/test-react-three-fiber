@@ -34,7 +34,7 @@ const Spaceship = () => {
 					position={[0, 0, 1]}
 					className="flex items-center justify-center w-48 rounded-lg select-none sm:w-80 aspect-video"
 				>
-          <h1 style={{'color': 'white'}}>Hello from HTML</h1>
+					<h1 style={{ color: 'white' }}>Hello from HTML</h1>
 				</Html>
 			</group>
 		</Suspense>

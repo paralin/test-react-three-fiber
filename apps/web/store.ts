@@ -1,8 +1,8 @@
 import { createContext } from 'react'
 
 const initialState = {
-  first: "A",
-  last: "J"
+	first: 'A',
+	last: 'J'
 }
 
 export type UserState = typeof initialState
