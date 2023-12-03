@@ -12,11 +12,11 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md}\""
 	},
 	"devDependencies": {
-		"prettier": "^2.7.1",
+		"prettier": "^3.0.0",
 		"turbo": "latest"
 	},
 	"engines": {
 		"node": ">=16.0.0"
 	},
-	"packageManager": "yarn@1.22.19"
+	"packageManager": "yarn@1.22.21"
 }
