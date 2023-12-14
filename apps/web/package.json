@@ -21,7 +21,7 @@
 		"@babel/core": "^7.18.9",
 		"@spacegame/config": "*",
 		"@types/node": "^20.0.0",
-		"@types/react": "18.2.43",
+		"@types/react": "18.2.45",
 		"@types/three": "^0.159.0",
 		"autoprefixer": "^10.4.2",
 		"eslint": "^8.20.0",
