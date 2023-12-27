@@ -15,14 +15,14 @@
 		"postprocessing": "^6.28.4",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"three": "^0.159.0"
+		"three": "^0.160.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.9",
 		"@spacegame/config": "*",
 		"@types/node": "^20.0.0",
 		"@types/react": "18.2.45",
-		"@types/three": "^0.159.0",
+		"@types/three": "^0.160.0",
 		"autoprefixer": "^10.4.2",
 		"eslint": "^8.20.0",
 		"next-transpile-modules": "10.0.1",
