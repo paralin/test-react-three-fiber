@@ -1,17 +1,17 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    ":dependencyDashboard",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":ignoreModulesAndTests",
-    "group:all",
-    "workarounds:all"
-  ],
-  "branchConcurrentLimit": 0,
-  "postUpdateOptions": ["gomodMassage"],
-  "packageRules": [{
-    "matchManagers": ["gomod"],
-    "matchDepTypes": ["replace"],
-    "enabled": false
-  }]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		":semanticPrefixFixDepsChoreOthers",
+		":ignoreModulesAndTests",
+		"group:all",
+		"workarounds:all"
+	],
+	"branchConcurrentLimit": 0,
+	"packageRules": [
+		{
+			"matchManagers": ["gomod"],
+			"matchDepTypes": ["replace"],
+			"enabled": false
+		}
+	]
 }
